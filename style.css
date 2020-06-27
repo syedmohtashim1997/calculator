@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: grey;
+   
+}
+.main{
+    border: 1px solid grey;
+    width: 290px;
+    height: auto;
+    margin: 0 auto;
+    background-color: royalblue;
+}
+.button,.button1,.button2,.button3,.button4{
+    width: 50px;
+    height: 40px;
+border-radius: 20px;
+margin: 10px;
+}
+.tex {
+    width: 280px;
+    height: 30px;
+    font-size: large;
+    text-align: right;
+}
+.button1,.button2,.button3,.button4{
+    background-color: tomato;
+}

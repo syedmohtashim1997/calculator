@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <h1>Calculator</h1>
+  <hr color="red"> 
+  <div class="main">
+  <table>
+      <tr><td colspan="4"><input type="text" class="tex" id="result"></td></tr>
+      <tr><td><input type="button" class="button" value="7" onclick="output('7')"></td><td><input type="button" class="button" value="8" onclick="output('8')"></td><td><input type="button" class="button" value="9" onclick="output('9')"></td>
+      <td><input type="button" class="button4" value="/" onclick="output('/')"></td></tr>
+      <tr><td><input type="button" class="button" value="4" onclick="output('4')"></td><td><input type="button" class="button" value="5" onclick="output('5')"></td><td><input type="button" class="button" value="6" onclick="output('6')"></td>
+      <td><input type="button" class="button3" value="X" onclick="output('*')"></td></tr>
+      <tr><td><input type="button" class="button" value="1" onclick="output('1')"></td><td><input type="button" class="button" value="2" onclick="output('2')"></td><td><input type="button" class="button" value="3" onclick="output('3')"></td>
+      <td><input type="button" class="button2" value="-" onclick="output('-')"></td></tr>
+       <tr><td><input type="button" class="button" value="Clear" onclick="clearres()"></td><td><input type="button" class="button" value="0" onclick="output('0')"></td><td><input type="button" class="button" value="=" onclick="calculate()"></td>
+       <td><input type="button" class="button1" value="+" onclick="output('+')"></td></tr>
+  </table> 
+</div> 
+</body>
+<script src="app.js"></script>
+</html>
